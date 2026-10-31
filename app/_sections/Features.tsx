@@ -29,7 +29,7 @@ const SECTIONS = [
 ];
 
 function Card ({ section }){
-    return (<div className={`w-65 h-90 bg-transparent rounded-lg border-2 border-gray-300 p-6 hover:border-[#5359a7]/50 hover:shadow-glow shadow-[#5359a7]/40`}>
+    return (<div className={`w-65 h-90 bg-transparent rounded-lg border-2 border-gray-300 p-6 hover:border-primary/50 hover:shadow-glow shadow-[#5359a7]/40`}>
         <div className="text-7xl mb-4 flex justify-center">{section.icon}</div>
         <h3 className="text-xl font-semibold mb-2 text-center">{section.title}</h3>
         <p className="text-[16px] text-justify">{section.body}</p>

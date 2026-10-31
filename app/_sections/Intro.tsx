@@ -7,7 +7,7 @@ export default function Intro (){
             <div className="blinking-logo" role="img" aria-label="Daila logo" />
         </div>
         <p className="mt-4 text-2xl italic text-gray-600 text-justify">
-            DAILA isn&apos;t just another chatbot. She's your personal productivity companion, designed to help you stay organized, understand your habits, and make everyday decisions with confidence.
+            DAILA isn&apos;t just another chatbot. She&apos;s your personal productivity companion, designed to help you stay organized, understand your habits, and make everyday decisions with confidence.
             <br/><br/>
             Whether you&apos;re managing deadlines, tracking expenses, or planning your week, DAILA is always ready to help.
         </p>

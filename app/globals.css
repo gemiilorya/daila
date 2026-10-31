@@ -8,6 +8,11 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: #5359a7;
+  --color-secondary: #0f1727;
+  --color-tertiary: #1B2440;
+  --color-hover: #4a5190;
+
 
   --font-fredoka: var(--font-fredoka), sans-serif;
   --font-sans: var(--font-geist-sans);

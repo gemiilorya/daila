@@ -45,7 +45,7 @@ export default function Created() {
                 }`}
                 >
                 <div className="text-5xl mb-4 flex justify-center">{section.icon}</div>
-                <h3 className="text-xs font-bold tracking-widest uppercase text-[#5359a7] mb-3">
+                <h3 className="text-xs font-bold tracking-widest uppercase text-primary mb-3">
                     {section.title}
                 </h3>
                 <p className="text-sm text-gray-700">{section.desc}</p>

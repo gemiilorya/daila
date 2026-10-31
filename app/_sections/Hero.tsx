@@ -14,12 +14,12 @@ export default function Hero (){
             </p>
             <div className="flex gap-4 mt-8">
             <Link href="/signup">
-                <button className="btn-glow bg-[#5359a7] hover:bg-[#4a5190] border-[#5359a7] border-3 hover:border-[#4a5190] text-white font-bold w-50 h-15 rounded-full">
+                <button className="btn-glow bg-primary hover:bg-hover border-primary border-3 hover:border-hover text-white font-bold w-50 h-15 rounded-full">
                 Start Now
                 </button>
             </Link>
             <Link href="/login">
-                <button className="btn-glow border-[#5359a7] border-3 hover:border-[#4a5190] font-bold w-50 h-15 rounded-full">
+                <button className="btn-glow border-primary border-3 hover:border-hover font-bold w-50 h-15 rounded-full">
                 Log In
                 </button>
             </Link>
