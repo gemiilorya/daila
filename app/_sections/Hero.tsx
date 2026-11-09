@@ -3,11 +3,11 @@ import Link from "next/link";
 export default function Hero (){
     return(
         <div className="flex flex-col items-center justify-center py-50">
-            <div className="mb-6 h-30 w-30 shrink-0 md:h-50 md:w-50 animate-float">
+            <div className="mb-6 h-50 w-50 shrink-0 animate-float">
                 <div className="blinking-logo" role="img" aria-label="Daila logo" />
             </div>
-            <h1 className="text-4xl font-semibold font-fredoka">Meet DAILA — Your Daily AI Life Assistant</h1>
-            <p className="mt-4 text-2xl italic text-gray-600 text-center">
+            <h1 className="text-2xl md:text-4xl font-semibold font-fredoka">Meet DAILA — Your Daily AI Life Assistant</h1>
+            <p className="mt-4 text-xl md:text-2xl italic text-gray-600 text-center">
             Stay organized, in control, and one step ahead. <br/>
             DAILA helps you manage tasks, track your finances, <br/>
             plan your schedule, and make smarter decisions—effortlessly.

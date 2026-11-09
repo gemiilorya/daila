@@ -126,7 +126,7 @@ export default function SignupPage() {
         'focus:outline-none focus:ring-2 focus:ring-[#5359a7]';
 
     return (
-        <main className="">
+        <main>
         <p className="font-fredoka text-xl text-[#e1e8f5] ml-20 mt-5">
             Create an account to get started
         </p>

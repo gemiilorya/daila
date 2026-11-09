@@ -33,7 +33,7 @@ export default function Created() {
     return (
         <section className="max-w-4xl mx-auto py-50">
         <h2 className="text-5xl font-semibold font-fredoka text-center mb-20">Designed For Everyday Life</h2>
-        <div className="border border-gray-400 rounded-2xl grid grid-cols-2">
+        <div className="border border-gray-400 rounded-2xl grid grid-cols-2 scale-90 md:scale-100">
             {Object.entries(WORKS).map(([key, section], index) => (
                 <div
                 key={index}
