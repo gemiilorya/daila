@@ -123,7 +123,7 @@ export default function SignupPage() {
 
     const inputClass =
         'w-full rounded-lg bg-[#e1e8f5] p-3 text-[#0f1727] ' +
-        'focus:outline-none focus:ring-2 focus:ring-[#5359a7]';
+        'focus:outline-none focus:ring-2 focus:ring-primary';
 
     return (
         <main>
@@ -224,7 +224,7 @@ export default function SignupPage() {
             <button
                 type="submit"
                 disabled={isSubmitting}
-                className="btn-glow h-14 w-full rounded-full bg-[#5359a7] font-bold text-white hover:bg-[#4a5190] disabled:cursor-not-allowed disabled:opacity-60"
+                className="btn-glow h-14 w-full rounded-full bg-primary font-bold text-white hover:bg-[#4a5190] disabled:cursor-not-allowed disabled:opacity-60"
             >
                 {isSubmitting ? 'Creating account…' : 'Create Account'}
             </button>
@@ -232,7 +232,7 @@ export default function SignupPage() {
 
             <p className="mt-6 text-center text-sm">
             Already have an account?{' '}
-            <Link href="/login" className="text-[#5359a7] hover:underline">
+            <Link href="/login" className="text-primary hover:underline">
                 Sign In
             </Link>
             </p>

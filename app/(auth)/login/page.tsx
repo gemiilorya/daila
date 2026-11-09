@@ -81,17 +81,17 @@ export default function LoginPage() {
     }
 
     const inputClass =
-        'w-full rounded-lg bg-[#e1e8f5] p-3 text-[#0f1727] ' +
+        'w-full rounded-lg bg-[#e1e8f5]/20 p-3 text-[#0f1727] ' +
         'placeholder:text-gray-500 focus:outline-none ' +
-        'focus:ring-2 focus:ring-[#5359a7]';
+        'focus:ring-2 focus:ring-primary';
 
     return (
         <main>
-        <p className="font-fredoka text-xl text-[#e1e8f5] ml-20 mt-5">
+        <p className="font-fredoka text-xl text-[#e1e8f5] ml-0 md:ml-20 mt-5 text-center md:text-left">
             Welcome back! Sign in to continue
         </p>
 
-        <div className="w-full max-w-md rounded-2xl bg-background py-20 px-10 md:justify-self-end mr-50 -mt-25">
+        <div className="w-full mx-auto max-w-md rounded-2xl bg-background/50 py-20 px-10 md:justify-self-end md:mr-50 md:-mt-25 mt-10">
             <h1 className="mb-6 text-center font-fredoka text-3xl">
             Sign In
             </h1>
@@ -180,7 +180,7 @@ export default function LoginPage() {
             <button
                 type="submit"
                 disabled={isSubmitting}
-                className="btn-glow h-14 w-full rounded-full bg-[#5359a7] font-bold text-white hover:bg-[#4a5190] disabled:cursor-not-allowed disabled:opacity-60"
+                className="btn-glow h-14 w-full rounded-full bg-primary font-bold text-white hover:bg-hover disabled:cursor-not-allowed disabled:opacity-60"
             >
                 {isSubmitting ? 'Signing in…' : 'Sign In'}
             </button>
@@ -190,7 +190,7 @@ export default function LoginPage() {
             Don&apos;t have an account?{' '}
             <Link
                 href="/signup"
-                className="text-[#5359a7] hover:underline"
+                className="text-primary hover:underline"
             >
                 Sign Up
             </Link>

@@ -54,7 +54,7 @@ export default function FAQs() {
                     onClick={() => toggle(index)}
                 >
                     <div className="flex justify-between items-center">
-                    <span className="font-semibold group-hover:text-[#5359a7]">{faq.question}</span>
+                    <span className="font-semibold group-hover:text-primary">{faq.question}</span>
                     <span className="text-xl text-gray-400 ml-4">
                         {openIndex === index ? "×" : "+"}
                     </span>
